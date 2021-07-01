@@ -1,0 +1,22 @@
+<script>
+
+function number_cardinality(my_number){
+    var remainder = 0;
+    remainder = my_number % 10;
+    if(remainder == 0)
+    console.log("zero");
+    if(remainder == 5)
+    console.log("five");
+    if(remainder == 2 || remainder == 4 || remainder == 6 || remainder == 8)
+    console.log("even");
+    if(remainder == 1 || remainder == 3 || remainder == 7 || remainder == 9)
+    console.log("odd");
+    
+}
+
+number_cardinality(17);
+number_cardinality(14);
+number_cardinality(15);
+number_cardinality(10);
+
+</script>
